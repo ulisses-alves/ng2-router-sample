@@ -1,11 +1,22 @@
 :host {
-  display: flex;
+  display: block;
   height: 100%;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+my-header {
+  width: 100%;
 }
 
 nav {
   background-color: rgb(230, 230, 230);
-  width: 300px;
+  width: 200px;
 }
 
 section {
