@@ -7,6 +7,7 @@ System.config({
     'npm:': 'https://unpkg.com/'
   },
   map: {
+    'manifest': './manifest.ts',
     'app': './',
     '@angular/core': 'npm:@angular/core@2.0.1/bundles/core.umd.min.js',
     '@angular/common': 'npm:@angular/common@2.0.1/bundles/common.umd.min.js',

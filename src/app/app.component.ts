@@ -8,11 +8,4 @@ import 'rxjs/add/operator/map'
   styleUrls: [ 'app/app.component.css' ]
 })
 export class AppComponent {
-  constructor(http: Http) {
-    http.get('manifest.json')
-      .map(res => res.json())
-      .subscribe(data => {
-        console.log(data)
-      })
-  }
 }
