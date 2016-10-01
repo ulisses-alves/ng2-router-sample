@@ -1,0 +1,14 @@
+:host {
+  display: flex;
+  height: 100%;
+}
+
+nav {
+  background-color: rgb(230, 230, 230);
+  width: 300px;
+}
+
+section {
+  background-color: rgb(240, 240, 240);
+  flex-grow: 1;
+}

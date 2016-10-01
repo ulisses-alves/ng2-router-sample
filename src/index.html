@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/">
+    <title>ng2 Sample</title>
+    <link href="index.css" rel="stylesheet">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/typescript/2.0.3/typescript.min.js"></script>
+    <script src="//unpkg.com/reflect-metadata"></script>
+    <script src="//unpkg.com/zone.js"></script>
+    <script src="//unpkg.com/systemjs/dist/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+      System.import('app').catch(console.error.bind(console));
+    </script>
+  </head>
+  <body>
+    <my-app>Loading...</my-app>
+  </body>
+</html>
